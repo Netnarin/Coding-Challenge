@@ -4,9 +4,7 @@
   "description": "TDD with TypeScript",
   "main": "index.js",
   "scripts": {
-    "build": "tsc",
-    "pretest": "npm run build",
-    "test": "mocha dist/tests"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",

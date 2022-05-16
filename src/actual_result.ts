@@ -1,5 +1,5 @@
 export class actual_result {    
-    public function actual_result(x: number, y: number, z: number): number {
+    public actual_result(x: number, y: number, z: number): number {
       return x * ( z / y );
     }
 }

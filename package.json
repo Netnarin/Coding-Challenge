@@ -1,0 +1,22 @@
+{
+  "name": "coding-challenge",
+  "version": "1.0.0",
+  "description": "TDD with TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha_unit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Netnarin/Coding-Challenge.git"
+  },
+  "keywords": [
+    "challenge"
+  ],
+  "author": "noi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Netnarin/Coding-Challenge/issues"
+  },
+  "homepage": "https://github.com/Netnarin/Coding-Challenge#readme"
+}

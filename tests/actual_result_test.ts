@@ -9,7 +9,7 @@ describe("actual_result", () => {
 
     beforeEach(() => tested = new actual_result());
 
-    describe("Original material in tonnes", () => {
+    describe("Test Case #1", () => {
 
         it("Original material in tonnes, 2022", () => {
             const result = tested.actual_result(1000,25,100);

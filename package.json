@@ -4,19 +4,29 @@
   "description": "TDD with TypeScript",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "build": "tsc",
+    "pretest": "npm run build",
+    "test": "mocha dist/tests"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Netnarin/Coding-Challenge.git"
   },
   "keywords": [
-    "challenge"
+    "tdd_challenge",
+    "typescript"
   ],
   "author": "noi",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Netnarin/Coding-Challenge/issues"
   },
-  "homepage": "https://github.com/Netnarin/Coding-Challenge#readme"
+  "homepage": "https://github.com/Netnarin/Coding-Challenge#readme",
+  "devDependencies": {
+    "@types/mocha": "2.2.39",
+    "@types/should": "8.1.30",
+    "mocha": "3.2.0",
+    "should": "11.2.0",
+    "typescript": "2.1.6"
+  }
 }

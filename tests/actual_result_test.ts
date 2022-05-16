@@ -64,4 +64,32 @@ describe("actual_result", () => {
             result.should.be.equal(expected);
         });
     });
+    
+    describe("Test Case #3 ( 75% )", () => {
+        it("Original material in tonnes, 2022 : 750", () => {
+            const result = tested.actual_result(750,75,100);
+            const expected = 1000;
+            result.should.be.equal(expected);
+        });
+        it("Original material in tonnes, 2023 : 1125", () => {
+            const result = tested.actual_result(1125,75,100);
+            const expected = 1500;
+            result.should.be.equal(expected);
+        });        
+        it("Original material in tonnes, 2024 : 675", () => {
+            const result = tested.actual_result(675,75,100);
+            const expected = 900;
+            result.should.be.equal(expected);
+        });
+        it("Original material in tonnes, 2025 : 750", () => {
+            const result = tested.actual_result(750,75,100);
+            const expected = 1000;
+            result.should.be.equal(expected);
+        });
+        it("Original material in tonnes, 2026 : 900", () => {
+            const result = tested.actual_result(900,75,100);
+            const expected = 1200;
+            result.should.be.equal(expected);
+        });
+    });
 });
